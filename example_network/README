@@ -1,0 +1,11 @@
+
+
+# Example genenetwork creation
+This directory contains all the steps needed to create a GeneNetwork on samples from a randomly chosen, small dataset on the Europen Nucleotide Archive: [PRJNA233428](https://www.ebi.ac.uk/ena/data/view/PRJNA233428)<sup>[1](#citations)</sup>. 
+
+To follow along it is assumed that you have code from https://github.com/npklein/brain_eQTL/ in the same directory. You can
+get this by running `git clone https://github.com/npklein/brain_eQTL.git` in your terminal.
+
+
+## citations
+1. XSAnno: a framework for building ortholog models in cross-species transcriptome comparisons.
