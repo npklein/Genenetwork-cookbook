@@ -1,2 +1,8 @@
-transcriptome_v98_noPatchChromosomes_removed_version_removed_CHR.idx
+transcriptome_v98.idx
 kallisto_output/
+brain_eQTL/
+eqtl-mapping-pipeline.jar
+gencode.v32.primary_assembly.annotation.gtf
+output/
+configs/
+tmp/
