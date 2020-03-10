@@ -42,5 +42,7 @@ python /groups/umcg-biogen/tmp03/tools/brain_eQTL/utility_scripts/expression_scr
 # get a list of samples that will be used as input for next step
 head -n1 kallisto_output/merged_kallisto_geneCounts/geneEstimatedCounts.txt | sed -e 's;\t;\n;g' | tail -n +2 > kallisto_output/list_of_samples.txt
 
+head -n1001 kallisto_output/merged_kallisto_geneCounts/geneEstimatedCounts.txt > kallisto_output/merged_kallisto_geneCounts/geneEstimatedCounts.txt.tmp
+mv kallisto_output/merged_kallisto_geneCounts/geneEstimatedCounts.txt.tmp kallisto_output/merged_kallisto_geneCounts/geneEstimatedCounts.txt
 gzip kallisto_output/merged_kallisto_geneCounts/geneEstimatedCounts.txt
 
